@@ -1,0 +1,146 @@
+/* Reset */
+body, h1, h2, h3, p, ul, li, a, button, input, textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: boldp;
+}
+bc.png {
+ weight:0px;
+ boder-radius: 20px
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f4a261;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #f4a261, #e76f51);
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.hero .btn {
+  padding: 10px 20px;
+  background: #fff;
+  color: #333;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background 0.3s, color 0.3s;
+  margin-bottom: 50px;
+}
+
+.hero .btn:hover {
+  background: #333;
+  color: #fff;
+}
+
+/* Products */
+.products {
+  padding: 50px 20px;
+  background: #f1f1f1;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #e76f51;
+  font-weight: bold;
+}
+
+.buy-btn {
+  padding: 10px 15px;
+  background: #f4a261;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background: #e76f51;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+}
+.logo {
+  width: 100px; /* Ajuste la largeur */
+  height: auto; /* Maintient le ratio de l'image */
+  border-radius: 50px;
+  text-align: center;
+  position: top; 
+  box-shadow: 3px 3px 1px orange;
+  margin-top:30px;
+  margin-left: 250px;
+  margin-bottom: 18px;
+}
+.logo {
+    position: absolute;
+    top: -9px;
+    left: 35px;
+}
